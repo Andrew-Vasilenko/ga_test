@@ -33,7 +33,7 @@ ______________________________________________________________________________
 |    5   | Илья    |                              |    5   | Книга5 |   3    |
 </code></pre>
  
-#А. 
+### А. 
 `SELECT u.name, b.title FROM 
 users as u
 LEFT JOIN books as b
@@ -52,14 +52,14 @@ __________________________
 |    Илья    | null   |                             
 </code></pre>
 
-#Б.
+### Б.
 `SELECT u.name, b.title FROM 
 users as u
 INNER JOIN books as b
 ON u.userId = b.userId
 `
-<pre><code>
 ### Ответ (Б): 
+<pre><code>
 | name | title   |                              
 __________________________
 |    Иван    | Книга1 |                              
